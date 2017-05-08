@@ -13,6 +13,12 @@
 		84A7BCA51EC0CECC00E7AED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BCA31EC0CECC00E7AED0 /* Main.storyboard */; };
 		84A7BCA71EC0CECC00E7AED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BCA61EC0CECC00E7AED0 /* Assets.xcassets */; };
 		84A7BCAA1EC0CECC00E7AED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BCA81EC0CECC00E7AED0 /* LaunchScreen.storyboard */; };
+		84A7BCB31EC0CF6600E7AED0 /* CategoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7BCB21EC0CF6600E7AED0 /* CategoryDetailViewController.m */; };
+		84A7BCBB1EC0EC1700E7AED0 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BCB71EC0EC1700E7AED0 /* cat.jpg */; };
+		84A7BCBC1EC0EC1700E7AED0 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BCB81EC0EC1700E7AED0 /* fish.png */; };
+		84A7BCBD1EC0EC1700E7AED0 /* bird.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BCB91EC0EC1700E7AED0 /* bird.jpeg */; };
+		84A7BCBE1EC0EC1700E7AED0 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BCBA1EC0EC1700E7AED0 /* dog.jpg */; };
+		84A7BCC01EC0F6BF00E7AED0 /* read.me in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BCBF1EC0F6BF00E7AED0 /* read.me */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,13 @@
 		84A7BCA61EC0CECC00E7AED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A7BCA91EC0CECC00E7AED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A7BCAB1EC0CECC00E7AED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A7BCB11EC0CF6600E7AED0 /* CategoryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryDetailViewController.h; sourceTree = "<group>"; };
+		84A7BCB21EC0CF6600E7AED0 /* CategoryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryDetailViewController.m; sourceTree = "<group>"; };
+		84A7BCB71EC0EC1700E7AED0 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpg; path = Resurses/cat.jpg; sourceTree = "<group>"; };
+		84A7BCB81EC0EC1700E7AED0 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fish.png; path = Resurses/fish.png; sourceTree = "<group>"; };
+		84A7BCB91EC0EC1700E7AED0 /* bird.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bird.jpeg; path = Resurses/bird.jpeg; sourceTree = "<group>"; };
+		84A7BCBA1EC0EC1700E7AED0 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog.jpg; path = Resurses/dog.jpg; sourceTree = "<group>"; };
+		84A7BCBF1EC0F6BF00E7AED0 /* read.me */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read.me; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +71,15 @@
 		84A7BC991EC0CECC00E7AED0 /* G40L6_NavigationController_TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				84A7BC9D1EC0CECC00E7AED0 /* AppDelegate.h */,
-				84A7BC9E1EC0CECC00E7AED0 /* AppDelegate.m */,
-				84A7BCA01EC0CECC00E7AED0 /* ViewController.h */,
-				84A7BCA11EC0CECC00E7AED0 /* ViewController.m */,
 				84A7BCA31EC0CECC00E7AED0 /* Main.storyboard */,
+				84A7BCB61EC0EC0400E7AED0 /* Resurses */,
+				84A7BCB51EC0CFAB00E7AED0 /* View */,
+				84A7BCB41EC0CF9E00E7AED0 /* Controller */,
 				84A7BCA61EC0CECC00E7AED0 /* Assets.xcassets */,
 				84A7BCA81EC0CECC00E7AED0 /* LaunchScreen.storyboard */,
 				84A7BCAB1EC0CECC00E7AED0 /* Info.plist */,
 				84A7BC9A1EC0CECC00E7AED0 /* Supporting Files */,
+				84A7BCBF1EC0F6BF00E7AED0 /* read.me */,
 			);
 			path = G40L6_NavigationController_TabBar;
 			sourceTree = "<group>";
@@ -77,6 +90,37 @@
 				84A7BC9B1EC0CECC00E7AED0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A7BCB41EC0CF9E00E7AED0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84A7BC9D1EC0CECC00E7AED0 /* AppDelegate.h */,
+				84A7BC9E1EC0CECC00E7AED0 /* AppDelegate.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		84A7BCB51EC0CFAB00E7AED0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84A7BCB11EC0CF6600E7AED0 /* CategoryDetailViewController.h */,
+				84A7BCB21EC0CF6600E7AED0 /* CategoryDetailViewController.m */,
+				84A7BCA01EC0CECC00E7AED0 /* ViewController.h */,
+				84A7BCA11EC0CECC00E7AED0 /* ViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		84A7BCB61EC0EC0400E7AED0 /* Resurses */ = {
+			isa = PBXGroup;
+			children = (
+				84A7BCB71EC0EC1700E7AED0 /* cat.jpg */,
+				84A7BCB81EC0EC1700E7AED0 /* fish.png */,
+				84A7BCB91EC0EC1700E7AED0 /* bird.jpeg */,
+				84A7BCBA1EC0EC1700E7AED0 /* dog.jpg */,
+			);
+			name = Resurses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +181,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A7BCBE1EC0EC1700E7AED0 /* dog.jpg in Resources */,
 				84A7BCAA1EC0CECC00E7AED0 /* LaunchScreen.storyboard in Resources */,
+				84A7BCBC1EC0EC1700E7AED0 /* fish.png in Resources */,
+				84A7BCC01EC0F6BF00E7AED0 /* read.me in Resources */,
+				84A7BCBD1EC0EC1700E7AED0 /* bird.jpeg in Resources */,
 				84A7BCA71EC0CECC00E7AED0 /* Assets.xcassets in Resources */,
+				84A7BCBB1EC0EC1700E7AED0 /* cat.jpg in Resources */,
 				84A7BCA51EC0CECC00E7AED0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A7BCA21EC0CECC00E7AED0 /* ViewController.m in Sources */,
+				84A7BCB31EC0CF6600E7AED0 /* CategoryDetailViewController.m in Sources */,
 				84A7BC9F1EC0CECC00E7AED0 /* AppDelegate.m in Sources */,
 				84A7BC9C1EC0CECC00E7AED0 /* main.m in Sources */,
 			);
